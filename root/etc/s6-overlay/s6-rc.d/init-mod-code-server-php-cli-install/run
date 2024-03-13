@@ -9,7 +9,7 @@ if [ ! -d /config/.php/${PHP_VERSION} ]; then
     cp -rf /etc/php/${PHP_VERSION} /config/.php/${PHP_VERSION}
 fi
 
-chown -R abc:abc /config/.php
+lsiown -R abc:abc /config/.php
 rm -rf /etc/php
 ln -s /config/.php /etc/php
 
