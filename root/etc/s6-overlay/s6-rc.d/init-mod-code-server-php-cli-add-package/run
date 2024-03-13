@@ -55,7 +55,7 @@ else
     echo "**** PHP ${PHP_VERSION} is not installed! Check log! ****"
 fi
 
-if [ "${ENABLE_COMPOSER}" = "yes" ] && [ "${HAS_PHP}" = yes ]; then
+if [ "${ENABLE_COMPOSER}" = "yes" ] && [ "${HAS_PHP}" = "yes" ]; then
     echo "**** Installing composer dependencies ****"
 
     if ! command -v unrar &> /dev/null; then
